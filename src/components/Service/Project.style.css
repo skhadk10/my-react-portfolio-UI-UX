@@ -1,0 +1,46 @@
+/* services section styling */
+.project,
+.teams {
+  color: #fff;
+  background: #111;
+}
+.project .title::before,
+.teams .title::before {
+  background: #fff;
+}
+.project .title::after,
+.teams .title::after {
+  background: #111;
+  content: "what i provide";
+}
+.project .proj-content .card {
+  width: calc(33% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.project .proj-content .card:hover {
+  background: crimson;
+}
+.project .proj-content .card .box {
+  transition: all 0.3s ease;
+}
+.project .proj-content .card:hover .box {
+  transform: scale(1.05);
+}
+.project .proj-content .card i {
+  font-size: 50px;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.project .proj-content .card:hover i {
+  color: #fff;
+}
+.project .proj-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
