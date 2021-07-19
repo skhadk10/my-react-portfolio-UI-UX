@@ -1,19 +1,19 @@
 /* services section styling */
-.project,
+.services,
 .teams {
   color: #fff;
   background: #111;
 }
-.project .title::before,
+.services .title::before,
 .teams .title::before {
   background: #fff;
 }
-.project .title::after,
+.services .title::after,
 .teams .title::after {
   background: #111;
   content: "what i provide";
-}
-.project .proj-content .card {
+} 
+.services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -22,24 +22,24 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.project .proj-content .card:hover {
+.services .serv-content .card:hover {
   background: crimson;
 }
-.project .proj-content .card .box {
+.services .serv-content .card .box {
   transition: all 0.3s ease;
 }
-.project .proj-content .card:hover .box {
+.services .serv-content .card:hover .box {
   transform: scale(1.05);
 }
-.project .proj-content .card i {
+.services .serv-content .card i {
   font-size: 50px;
   color: crimson;
   transition: color 0.3s ease;
 }
-.project .proj-content .card:hover i {
+.services .serv-content .card:hover i {
   color: #fff;
 }
-.project .proj-content .card .text {
+.services .serv-content .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
