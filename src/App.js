@@ -7,6 +7,7 @@ import Service from './components/Service/Service';
 import SKills from './components/Skills/SKills';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
+import MyProject from './components/Project/MyProject';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Headers/>
       <About/>
       <Service/>
+      <MyProject/>
       <SKills/>
       <Team/>
       <Contact/>

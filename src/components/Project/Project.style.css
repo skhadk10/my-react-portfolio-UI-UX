@@ -1,0 +1,94 @@
+/* projects section styling */
+.projects,
+.teams {
+  color: #fff;
+  background: #111;
+}
+.projects .title::before,
+.teams .title::before {
+  background: #fff;
+}
+.projects .title::after,
+.teams .title::after {
+  background: #111;
+  content: "what i created";
+}
+.projects .serv-content .card {
+  width: calc(33% - 20px);
+  color: #222;
+
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projects .serv-content .card .box {
+  transition: all 0.3s ease;
+}
+.projects .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+.projects .serv-content .card img {
+  font-size: 50px;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.projects .serv-content .card a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.projects .serv-content .img1 {
+  background-size: cover;
+  background: url(../../img/calculator.PNG) center center no-repeat;
+  background-size: 300px 320px;
+  height: 280px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects .serv-content .img2 {
+  background-size: cover;
+  background: url(../../img/notodolist.PNG) center center no-repeat;
+  background-size: 300px 320px;
+  height: 280px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects .serv-content .img3 {
+  background-size: cover;
+  background: url(../../img/portfolio.PNG) center center no-repeat;
+  background-size: 300px 320px;
+  height: 280px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projects .serv-content .card a:hover {
+  color: white;
+  background: #222;
+  border: 2px solid crimson;
+}
+.projects .serv-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}

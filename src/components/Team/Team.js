@@ -1,5 +1,11 @@
 import React from 'react'
 import "./Team.style.css"
+import alija from "./../../img/alija.PNG"
+import amrit from"./../../img/amrit.PNG"
+import  saugat from "./../../img/saugat.PNG"
+import prem from "./../../img/prem.PNG"
+import  pravin from "./../../img/pravin.PNG"
+import  binod from "./../../img/binod.PNG"
 const Team = () => {
     return (
         <div>
@@ -10,44 +16,44 @@ const Team = () => {
             <div class="team-content">
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-1.jpeg" alt=""></img>
+                        <img src={prem} alt=""></img>
                         <div class="text">Prem Acharya</div>
                         <p>Software Engineer | Entrepreneur | Coding Instructor | Mentor</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-2.jpeg" alt=""></img>
+                        <img src={pravin} alt=""></img>
                         <div class="text">Pravin karki</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Software Engineer | PHP | Node.js | Motivator </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-3.jpeg" alt=""></img>
+                        <img src={alija} alt=""></img>
                         <div class="text">Alija Tamang</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-4.jpeg" alt=""></img>
+                        <img src={binod} alt=""></img>
                         <div class="text">Binod Kunwar</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Founder and Manager at Extra Tech | CCNA | AZURE | Mentor</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-5.jpeg" alt=""></img>
+                        <img src={saugat} alt=""></img>
                         <div class="text">Saugat Baral</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Full Stack Web Developer | React JS | Node JS</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-5.jpeg" alt=""></img>
+                        <img src={amrit} alt=""></img>
                         <div class="text">Amrit Sapkota</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Full MERN Stack Web Developer | React JS | Node JS</p>
                     </div>
                 </div>
             </div>
